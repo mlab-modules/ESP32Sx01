@@ -1,8 +1,8 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"J1","HEADER_1x03","Straight_2x03",79.8300,9.9000,180.0000,top
+"J1","HEADER_1x03","Straight_2x03",40.1300,18.3000,180.0000,top
 "J3","HEADER_1x12","Straight_2x12",61.2700,30.4500,0.0000,top
-"J4","HEADER_1x12","Straight_2x12",29.9300,10.5300,90.0000,top
+"J4","HEADER_1x12","Straight_2x12",29.9300,9.7000,-90.0000,top
 "J5","HEADER_1x12","Straight_2x12",9.3700,30.5700,180.0000,top
-"J6","HEADER_1x03","Straight_2x03",-14.6700,20.5000,180.0000,top
-"J7","HEADER_1x03","Straight_2x03",105.1200,31.5500,0.0000,top
+"J6","HEADER_1x03","Straight_2x03",19.7300,18.3000,180.0000,top
 "J8","HEADER_2x05","Straight_2x05",53.4300,27.8000,180.0000,top
+"SW1","434133025816","SW_Push_1P1T_NO_Vertical_Wuerth_434133025816",19.3250,42.7000,-90.0000,top

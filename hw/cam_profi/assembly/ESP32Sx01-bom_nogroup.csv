@@ -3,7 +3,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 2,"Unpolarized capacitor, small symbol",C_Small,C2C3C7,10u,C_0805_2012Metric,3,~,TME
 3,"Light emitting diode, small symbol",LED_Small,D2,Green,LED_1206_KPTR,1,~,OK
 4,"Light emitting diode, small symbol",LED_Small,D1,Red,LED_1206_KPTR,1,~,OK
-5,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J1J6J7,HEADER_1x03,Straight_2x03,3,,
+5,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J1J6,HEADER_1x03,Straight_2x03,2,,
 6,"2x12 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x12_PARALLEL,J3J4J5,HEADER_1x12,Straight_2x12,3,,
 7,"2x05 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x05_PARALLEL,J8,HEADER_2x05,Straight_2x05,1,,
 8,USB 2.0-only Type-C Receptacle connector,USBC_USB4105-GF-A,J2,USBC_USB4105-GF-A,USBC GCT_USB4105-GF-A,1,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,OK

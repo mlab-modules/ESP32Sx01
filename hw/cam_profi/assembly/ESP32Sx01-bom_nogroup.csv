@@ -1,5 +1,5 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,obchod
-1,"Unpolarized capacitor, small symbol",C_Small,C1C6,100n,C_0805_2012Metric,2,~,TME
+1,"Unpolarized capacitor, small symbol",C_Small,C1C6C?,100n,C_0805_2012Metric,3,~,TME
 2,"Unpolarized capacitor, small symbol",C_Small,C2C3C7,10u,C_0805_2012Metric,3,~,TME
 3,"Light emitting diode, small symbol",LED_Small,D2,Green,LED_1206_KPTR,1,~,OK
 4,"Light emitting diode, small symbol",LED_Small,D1,Red,LED_1206_KPTR,1,~,OK
@@ -10,9 +10,9 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 9,"NPN transistor, base/collector/emitter",Q_NPN_BCE,Q1,BC817-25,SOT-23,1,~,TME
 10,"Resistor, small symbol",R_Small,R4R5,200R,R_0805_2012Metric,2,~,TME
 11,"Resistor, small symbol",R_Small,R6,390R,R_0805_2012Metric,1,~,
-12,"Resistor, small symbol",R_Small,R3,1k,R_0805_2012Metric,1,~,TME
+12,"Resistor, small symbol",R_Small,R3R?,1k,R_0805_2012Metric,2,~,TME
 13,"Resistor, small symbol",R_Small,R1R2,5k1,R_0805_2012Metric,2,~,TME
-14,"Push button switch, generic, two pins",SW_Push,SW1,434133025816,SW_Push_1P1T_NO_Vertical_Wuerth_434133025816,1,~,TME
+14,"Push button switch, generic, two pins",SW_Push,SW1SW?,434133025816,SW_Push_1P1T_NO_Vertical_Wuerth_434133025816,2,~,TME
 15,"Smallsized module supporting 2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 8 MB, optional 2 MB PSRAM in chip package 39 GPIOs, rich set of peripherals Onboard PCB antenna or external antenna connector",ESP32-S3-MINI-1,U3,ESP32-S3-MINI-1,ESP32-S3-MINI-1,1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf,
 16,"1A Low drop-out regulator, Fixed Output 3.3V, SOT-223",NCP1117-3.3_SOT223,U1,NCP1117-3.3,SOT-223-3_TabPin2,1,http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF,TME
 17,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U2,USBLC6-2SC6,SOT-23-6,1,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,TME

@@ -1,6 +1,6 @@
 # ESP32Sx01 - ESP32-S3 MLAB module
 
-![Module Photo](doc/img/ESP32Sx01_top.jpg)
+![Module Photo](/doc/gen/img/ESP32Sx01-top.png)
 
 ## Description
 

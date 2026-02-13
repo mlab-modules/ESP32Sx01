@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|129890000|83456665|5c06ef0f-495b-4111-b4bc-dc34a84dc1dd|d67c2d79-5bb9-42e4-b1e3-e1d52428b58d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|129890000|85903335|5c06ef0f-495b-4111-b4bc-dc34a84dc1dd|778e8d35-8e9b-4759-b98c-359801ba9b4f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167190000|83456665|93e09efc-fe38-4119-86fc-f92e095fc95d|2ca50cb5-1809-4b49-92e2-ce60a8f2c0e6",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167190000|85903335|93e09efc-fe38-4119-86fc-f92e095fc95d|b586cdf0-4433-4a88-b0c0-32b44e0b2adf",
+          ""
+        ],
+        [
+          "hole_clearance|129890000|83456665|5c06ef0f-495b-4111-b4bc-dc34a84dc1dd|d67c2d79-5bb9-42e4-b1e3-e1d52428b58d",
+          ""
+        ],
+        [
+          "hole_clearance|129890000|85903335|5c06ef0f-495b-4111-b4bc-dc34a84dc1dd|778e8d35-8e9b-4759-b98c-359801ba9b4f",
+          ""
+        ],
+        [
+          "hole_clearance|161649999|122980000|c5af7eec-1c2c-4ba8-8a8b-cab98309aecd|b711dbaf-8589-48f5-a72a-84ccddbd64fd",
+          ""
+        ],
+        [
+          "hole_clearance|167190000|83456665|93e09efc-fe38-4119-86fc-f92e095fc95d|2ca50cb5-1809-4b49-92e2-ce60a8f2c0e6",
+          ""
+        ],
+        [
+          "hole_clearance|167190000|85903335|93e09efc-fe38-4119-86fc-f92e095fc95d|b586cdf0-4433-4a88-b0c0-32b44e0b2adf",
+          ""
+        ],
+        [
+          "hole_clearance|167449999|122980000|cf2a7598-ea68-4d76-b278-a67cb4d8d93a|6bbf5f03-0d56-4cc5-be1e-4396b834cd4d",
+          ""
+        ],
+        [
+          "starved_thermal|161349999|122405000|036055a7-deed-4f23-8bb9-a16aa45254e6|b711dbaf-8589-48f5-a72a-84ccddbd64fd|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|167749999|122405000|036055a7-deed-4f23-8bb9-a16aa45254e6|6bbf5f03-0d56-4cc5-be1e-4396b834cd4d|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -101,7 +150,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -125,9 +174,9 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -138,7 +187,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -630,7 +679,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://page_layout.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,

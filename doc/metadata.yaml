@@ -1,6 +1,6 @@
-description: null
+description: ESP32-S3 MLAB breakout board
 github_branch: ESP32Sx01A
-github_description: null
+github_description: ESP32-S3 MLAB breakout board
 github_repo: ESP32Sx01
 github_url: https://github.com/mlab-modules/ESP32Sx01
 homepage: false
@@ -16,6 +16,11 @@ mark: 50
 mod_ibom: hw/cam_profi/ESP32Sx01-ibom.html
 mod_scheme: doc/gen/ESP32Sx01-schematic.pdf
 status: 0
-tags: []
+tags:
+- esp32
+- kicad
+- mcu
+- mlab
+- pcb
 title: ESP32Sx01
-updated: '2026-02-13T09:55:06.451589+00:00'
+updated: '2026-02-13T09:57:07.560062+00:00'

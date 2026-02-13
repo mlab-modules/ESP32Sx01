@@ -5,4 +5,4 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/ESP32Sx01
-summary: null
+summary: ESP32-S3 MLAB breakout board

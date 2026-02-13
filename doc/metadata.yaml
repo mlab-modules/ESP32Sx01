@@ -1,0 +1,21 @@
+description: null
+github_branch: ESP32Sx01A
+github_description: null
+github_repo: ESP32Sx01
+github_url: https://github.com/mlab-modules/ESP32Sx01
+homepage: false
+images:
+- doc/gen/img/ESP32Sx01-bottom.png
+- doc/gen/img/ESP32Sx01-top.png
+- doc/gen/ESP32Sx01-schematic.svg
+- doc/gen/img/ESP32Sx01-top.svg
+- doc/gen/img/ESP32Sx01-bottom.svg
+- hw/cam_profi/assembly/ESP32Sx01-assembly_page_01.svg
+- hw/cam_profi/assembly/ESP32Sx01-assembly_page_02.svg
+mark: 50
+mod_ibom: hw/cam_profi/ESP32Sx01-ibom.html
+mod_scheme: doc/gen/ESP32Sx01-schematic.pdf
+status: 0
+tags: []
+title: ESP32Sx01
+updated: '2026-01-28T01:57:12.067710+00:00'

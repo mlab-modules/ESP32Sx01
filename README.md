@@ -23,7 +23,6 @@ ESP32Sx01 is a compact MLAB development module based on the ESP32-S3-MINI-1 micr
   * Output: +3.3V for ESP32-S3 and peripherals
 * **User Interface**:
   * Reset button
-  * Boot button for programming mode
   * Power LED (Green)
   * User LED (Red)
 * **Expansion**: 

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ESP32Sx01.kicad_sch</source>
-    <date>2026-02-13T10:49:15+0000</date>
+    <date>2026-02-14T17:35:16+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -139,25 +139,6 @@
       <tstamps>7b71ba85-f5f9-4cb7-b44d-96f64087e133</tstamps>
     </comp>
     <comp ref="C7">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Obchod">TME</field>
-        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Obchod" value="TME"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>30684417-b325-492d-8a56-88085e2b03a5</tstamps>
-    </comp>
-    <comp ref="C?">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
@@ -175,6 +156,25 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>57fb0625-3a65-4940-94f2-9e5f4e9ccb42</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Obchod">TME</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Obchod" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30684417-b325-492d-8a56-88085e2b03a5</tstamps>
     </comp>
     <comp ref="D1">
       <value>Red</value>
@@ -391,7 +391,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1fc7f41a-7f02-45e7-a2da-ead0a4f53443</tstamps>
     </comp>
-    <comp ref="J8">
+    <comp ref="J7">
       <value>HEADER_2x05</value>
       <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
       <fields>
@@ -482,6 +482,25 @@
       <tstamps>213ac439-2eb4-4d98-8c9f-044cf0351170</tstamps>
     </comp>
     <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Obchod">TME</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Obchod" value="TME"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5241d25a-e6f3-43ff-a9ab-f189315cc94c</tstamps>
+    </comp>
+    <comp ref="R5">
       <value>200R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
@@ -498,7 +517,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>61d858b0-d669-464a-9712-951009425be4</tstamps>
     </comp>
-    <comp ref="R5">
+    <comp ref="R6">
       <value>200R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
@@ -517,7 +536,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5694274e-4c82-45c5-bfac-1dd6b1424837</tstamps>
     </comp>
-    <comp ref="R6">
+    <comp ref="R7">
       <value>390R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
@@ -533,25 +552,6 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6bb2054b-e81a-4bcd-91b4-50d69a6744da</tstamps>
-    </comp>
-    <comp ref="R?">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Obchod">TME</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Obchod" value="TME"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5241d25a-e6f3-43ff-a9ab-f189315cc94c</tstamps>
     </comp>
     <comp ref="SW1">
       <value>434133025816</value>
@@ -571,7 +571,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2a67459a-f085-4f62-979c-e114936bf820</tstamps>
     </comp>
-    <comp ref="SW?">
+    <comp ref="SW2">
       <value>434133025816</value>
       <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</footprint>
       <datasheet>~</datasheet>
@@ -1033,7 +1033,7 @@
   <nets>
     <net code="1" name="+3V3" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J4" pin="21" pintype="input"/>
       <node ref="J4" pin="22" pintype="input"/>
@@ -1041,11 +1041,11 @@
       <node ref="J5" pin="4" pintype="input"/>
       <node ref="J6" pin="3" pintype="input"/>
       <node ref="J6" pin="4" pintype="input"/>
-      <node ref="J8" pin="5" pintype="input"/>
-      <node ref="J8" pin="6" pintype="input"/>
+      <node ref="J7" pin="5" pintype="input"/>
+      <node ref="J7" pin="6" pintype="input"/>
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="R?" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U3" pin="3" pinfunction="3V3" pintype="power_in"/>
     </net>
@@ -1065,11 +1065,11 @@
       <node ref="U3" pin="14" pinfunction="GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0" pintype="bidirectional"/>
     </net>
     <net code="4" name="/GPIO0_BOOT" class="Default">
-      <node ref="C?" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
       <node ref="J3" pin="1" pintype="input"/>
       <node ref="J3" pin="2" pintype="input"/>
-      <node ref="R?" pin="2" pintype="passive"/>
-      <node ref="SW?" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="GPIO0/BOOT" pintype="bidirectional"/>
     </net>
     <net code="5" name="/GPIO1" class="Default">
@@ -1110,15 +1110,15 @@
     <net code="12" name="/GPIO8" class="Default">
       <node ref="J3" pin="17" pintype="input"/>
       <node ref="J3" pin="18" pintype="input"/>
-      <node ref="J8" pin="7" pintype="input"/>
-      <node ref="J8" pin="8" pintype="input"/>
+      <node ref="J7" pin="7" pintype="input"/>
+      <node ref="J7" pin="8" pintype="input"/>
       <node ref="U3" pin="12" pinfunction="GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1" pintype="bidirectional"/>
     </net>
     <net code="13" name="/GPIO9" class="Default">
       <node ref="J3" pin="19" pintype="input"/>
       <node ref="J3" pin="20" pintype="input"/>
-      <node ref="J8" pin="3" pintype="input"/>
-      <node ref="J8" pin="4" pintype="input"/>
+      <node ref="J7" pin="3" pintype="input"/>
+      <node ref="J7" pin="4" pintype="input"/>
       <node ref="U3" pin="13" pinfunction="GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD" pintype="bidirectional"/>
     </net>
     <net code="14" name="/GPIO11" class="Default">
@@ -1154,7 +1154,7 @@
     <net code="20" name="/GPIO21" class="Default">
       <node ref="J4" pin="13" pintype="input"/>
       <node ref="J4" pin="14" pintype="input"/>
-      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U3" pin="25" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
     <net code="21" name="/GPIO38" class="Default">
@@ -1234,7 +1234,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C?" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
@@ -1264,15 +1264,15 @@
       <node ref="J6" pin="2" pintype="input"/>
       <node ref="J6" pin="5" pintype="input"/>
       <node ref="J6" pin="6" pintype="input"/>
-      <node ref="J8" pin="1" pintype="input"/>
-      <node ref="J8" pin="10" pintype="input"/>
-      <node ref="J8" pin="2" pintype="input"/>
-      <node ref="J8" pin="9" pintype="input"/>
+      <node ref="J7" pin="1" pintype="input"/>
+      <node ref="J7" pin="10" pintype="input"/>
+      <node ref="J7" pin="2" pintype="input"/>
+      <node ref="J7" pin="9" pintype="input"/>
       <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW?" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
@@ -1302,11 +1302,11 @@
     </net>
     <net code="36" name="Net-(D1-A)" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="37" name="Net-(D2-K)" class="Default">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="38" name="Net-(J2-CC1)" class="Default">
       <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
@@ -1328,11 +1328,11 @@
     </net>
     <net code="42" name="Net-(Q1-B)" class="Default">
       <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
     </net>
     <net code="43" name="Net-(Q1-C)" class="Default">
       <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
     </net>
     <net code="44" name="Net-(U3-GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P)" class="Default">
       <node ref="C4" pin="2" pintype="passive"/>

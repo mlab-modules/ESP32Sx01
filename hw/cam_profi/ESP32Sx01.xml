@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ESP32Sx01.kicad_sch</source>
-    <date>2026-02-14T17:35:16+0000</date>
+    <date>2026-02-15T00:07:41+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -177,6 +177,42 @@
       <tstamps>30684417-b325-492d-8a56-88085e2b03a5</tstamps>
     </comp>
     <comp ref="D1">
+      <value>BZX585-B5V6.115</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode, small symbol</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb184e34-1fc0-4ff6-bf22-869ea328a644</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BZT52H-C3V6,115</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode, small symbol</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:Nexperia_CFP3_SOD-123W</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24e7161c-f57a-4b3c-83a0-04c7f79ab7cc</tstamps>
+    </comp>
+    <comp ref="D3">
       <value>Red</value>
       <footprint>Mlab_D:LED_1206_KPTR</footprint>
       <datasheet>~</datasheet>
@@ -195,7 +231,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cb67431a-fdd2-4cd6-94ae-80c8bda11653</tstamps>
     </comp>
-    <comp ref="D2">
+    <comp ref="D4">
       <value>Green</value>
       <footprint>Mlab_D:LED_1206_KPTR</footprint>
       <datasheet>~</datasheet>
@@ -700,6 +736,27 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="D_Zener_Small">
+      <description>Zener diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="LED_Small">
       <description>Light emitting diode, small symbol</description>
       <docs>~</docs>
@@ -1034,7 +1091,8 @@
     <net code="1" name="+3V3" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J4" pin="21" pintype="input"/>
       <node ref="J4" pin="22" pintype="input"/>
       <node ref="J5" pin="3" pintype="input"/>
@@ -1052,6 +1110,7 @@
     <net code="2" name="+5V" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="3" pintype="input"/>
       <node ref="J1" pin="4" pintype="input"/>
       <node ref="J2" pin="A4/B9" pinfunction="VBUS" pintype="passive"/>
@@ -1235,7 +1294,9 @@
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
@@ -1300,12 +1361,12 @@
       <node ref="U3" pin="64" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="65" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D1-A)" class="Default">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="36" name="Net-(D3-A)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(D2-K)" class="Default">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="37" name="Net-(D4-K)" class="Default">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="38" name="Net-(J2-CC1)" class="Default">

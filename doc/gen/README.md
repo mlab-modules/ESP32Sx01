@@ -66,7 +66,7 @@ Eurocircuits class: 8C
 Components count: (SMD/THT)
 
 - Top: 2/6 (SMD + THT)
-- Bottom: 22/1 (SMD + THT)
+- Bottom: 24/1 (SMD + THT)
 
 Defined tracks:
 
@@ -77,8 +77,8 @@ Used tracks:
 
 - 0.2 mm (8 mils) (7) defined: no
 - 0.25 mm (10 mils) (19) defined: no
-- 0.3 mm (12 mils) (114) defined: yes
-- 0.4 mm (16 mils) (140) defined: yes
+- 0.3 mm (12 mils) (116) defined: yes
+- 0.4 mm (16 mils) (142) defined: yes
 
 Defined vias:
 
@@ -120,8 +120,8 @@ The stencil thickness is  0.12 mm.
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
 | Top    |               8 |       5.46 |      0.03 |
-| Bottom |             134 |     116.10 |      0.58 |
-| Total  |             142 |     121.56 |      0.61 |
+| Bottom |             138 |     119.78 |      0.60 |
+| Total  |             146 |     125.24 |      0.62 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 

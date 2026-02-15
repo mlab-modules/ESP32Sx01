@@ -4,6 +4,7 @@ github_description: ESP32-S3 MLAB breakout board
 github_repo: ESP32Sx01
 github_url: https://github.com/mlab-modules/ESP32Sx01
 homepage: false
+image_title: doc/gen/img/ESP32Sx01-top.png
 images:
 - doc/gen/img/ESP32Sx01-bottom.png
 - doc/gen/img/ESP32Sx01-top.png
@@ -15,7 +16,7 @@ images:
 mark: 50
 mod_ibom: hw/cam_profi/ESP32Sx01-ibom.html
 mod_scheme: doc/gen/ESP32Sx01-schematic.pdf
-status: 0
+status: 2
 tags:
 - esp32
 - kicad

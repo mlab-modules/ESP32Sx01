@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32Sx01A")
-		(date "2026")
-		(company "MLAB")
-		(comment 2 "roman-dvorak")
+		(date "2026-02-15")
+		(company "MLAB.cz")
+		(comment 1 " ESP32-S3 MLAB breakout board ")
+		(comment 3 "roman-dvorak")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -13775,10 +13776,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "32b84509-87bd-4cfa-bdb6-5dc21740ae35")
+			(uuid "32b84509-87bd-4cfa-bdb6-5dc21740ae36")
 		)
 		(pin "2"
-			(uuid "5b034e96-38fd-4914-b83b-a6d005c9aca8")
+			(uuid "5b034e96-38fd-4914-b83b-a6d005c9aca9")
 		)
 		(instances
 			(project ""

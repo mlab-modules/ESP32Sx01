@@ -2,18 +2,18 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ESP32Sx01.kicad_sch</source>
-    <date>2026-02-15T02:31:44+0000</date>
+    <date>2026-02-15T21:05:08+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ESP32Sx01A</title>
-        <company>MLAB</company>
+        <company>MLAB.cz</company>
         <rev/>
-        <date>2026</date>
+        <date>2026-02-15</date>
         <source>ESP32Sx01.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value="roman-dvorak"/>
-        <comment number="3" value=""/>
+        <comment number="1" value=" ESP32-S3 MLAB breakout board "/>
+        <comment number="2" value=""/>
+        <comment number="3" value="roman-dvorak"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>

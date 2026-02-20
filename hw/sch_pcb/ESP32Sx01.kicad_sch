@@ -8460,6 +8460,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997"
+			(at 58.42 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdf72631-ad43-4d0b-a33b-6e3bbaf35adc")
 		)
@@ -8705,13 +8714,12 @@
 		(at 90.17 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "2078302d-479d-4756-afc9-5455ce845c1f")
 		(property "Reference" "C5"
-			(at 90.1763 83.82 90)
+			(at 85.09 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8727,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 90.1763 86.36 90)
+			(at 93.98 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,6 +8839,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f898c"
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4d304bc-0e82-4a16-9fa5-76b7f57912a9")
 		)
@@ -8893,6 +8910,15 @@
 		)
 		(property "Description" "Zener diode, small symbol"
 			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "650b35ab462c6d9e720543d0"
+			(at 81.28 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,6 +9069,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "6998c49ed42e6e3c4d330f22"
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e487cd5-1327-455f-832a-cb27dd539e7d")
 		)
@@ -9111,6 +9146,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8af9"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -9192,6 +9236,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 168.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
 			(at 168.91 31.75 0)
 			(effects
 				(font
@@ -9862,6 +9915,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f898c"
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7dd6004b-dddd-477b-8e9a-3b0b5c7e7471")
 		)
@@ -9932,6 +9994,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
 			(at 53.34 29.21 0)
 			(effects
 				(font
@@ -10011,6 +10082,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 44.45 29.21 0)
 			(effects
 				(font
@@ -10229,6 +10309,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f897d"
+			(at 264.16 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14cd2785-4265-49fb-849c-12fac3221b15")
 		)
@@ -10300,6 +10389,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 149.86 34.29 0)
 			(effects
 				(font
@@ -10508,6 +10606,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f897d"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc7bee28-50b9-49d1-8315-2079556537ae")
 		)
@@ -10593,13 +10700,12 @@
 		(at 96.52 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "6887abab-cd6a-4a0e-a1ea-3733af17b7ad")
 		(property "Reference" "Y1"
-			(at 99.06 86.3599 90)
+			(at 100.33 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10714,7 @@
 			)
 		)
 		(property "Value" "Crystal_Small"
-			(at 99.06 88.8999 90)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,6 +10810,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 274.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa12b6012875025b3977a16"
 			(at 274.32 57.15 0)
 			(effects
 				(font
@@ -10846,6 +10961,15 @@
 		)
 		(property "Obchod" "TME"
 			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5e82e0691287502a334a778c"
+			(at 63.5 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11351,6 +11475,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b4c"
+			(at 125.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "257a3d24-dcaa-4bdf-9df1-ee7f1699ab0a")
 		)
@@ -11768,6 +11901,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
 			(at 73.66 31.75 0)
 			(effects
 				(font
@@ -12243,6 +12385,15 @@
 			)
 		)
 		(property "Obchod" "TME"
+			(at 271.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8aea"
 			(at 271.78 64.77 0)
 			(effects
 				(font
@@ -12824,13 +12975,12 @@
 		(at 90.17 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "cec188ec-d0ee-4888-b599-dcad312c4f94")
 		(property "Reference" "C4"
-			(at 90.1763 78.74 90)
+			(at 85.09 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +12988,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 90.1763 81.28 90)
+			(at 95.25 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,6 +13306,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "6998c49ed42e6e3c4d330f22"
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6e0984b-b7be-428a-a6bd-2253a25895d6")
 		)
@@ -13320,6 +13479,15 @@
 			)
 		)
 		(property "Obchod" "OK"
+			(at 34.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa0f94612875025b397795e"
 			(at 34.29 67.31 0)
 			(effects
 				(font
@@ -13504,6 +13672,15 @@
 		)
 		(property "Obchod" "TME"
 			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997"
+			(at 58.42 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,6 +13945,15 @@
 		)
 		(property "Description" "Zener diode, small symbol"
 			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "60879d38128750769ee58e48"
+			(at 38.1 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ESP32Sx01.kicad_sch</source>
-    <date>2026-02-15T21:05:08+0000</date>
+    <date>2026-02-20T20:49:40+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -30,12 +30,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -49,12 +51,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -68,12 +72,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -94,6 +100,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -113,6 +120,7 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -125,12 +133,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -144,12 +154,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -163,12 +175,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -182,11 +196,13 @@
       <datasheet>~</datasheet>
       <description>Zener diode, small symbol</description>
       <fields>
+        <field name="UST_ID">60879d38128750769ee58e48</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet">~</field>
         <field name="Description">Zener diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="UST_ID" value="60879d38128750769ee58e48"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -200,11 +216,13 @@
       <datasheet>~</datasheet>
       <description>Zener diode, small symbol</description>
       <fields>
+        <field name="UST_ID">650b35ab462c6d9e720543d0</field>
         <field name="Footprint">Diode_SMD:Nexperia_CFP3_SOD-123W</field>
         <field name="Datasheet">~</field>
         <field name="Description">Zener diode, small symbol</field>
       </fields>
       <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="UST_ID" value="650b35ab462c6d9e720543d0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -351,12 +369,14 @@
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <fields>
         <field name="Obchod">OK</field>
+        <field name="UST_ID">5fa0f94612875025b397795e</field>
         <field name="Footprint">Mlab_CON:USBC GCT_USB4105-GF-A</field>
         <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A" description="USB 2.0-only Type-C Receptacle connector"/>
       <property name="Obchod" value="OK"/>
+      <property name="UST_ID" value="5fa0f94612875025b397795e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
@@ -448,12 +468,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8aea</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aea"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="transistor NPN"/>
@@ -466,12 +488,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -485,12 +509,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -504,12 +530,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984512875079b91f898c</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -523,12 +551,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984512875079b91f898c</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -541,11 +571,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f897d</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f897d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -559,12 +591,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984512875079b91f897d</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984512875079b91f897d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -577,11 +611,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5fa12b6012875025b3977a16</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5fa12b6012875025b3977a16"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -595,12 +631,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">6998c49ed42e6e3c4d330f22</field>
         <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="6998c49ed42e6e3c4d330f22"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
@@ -613,12 +651,14 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">6998c49ed42e6e3c4d330f22</field>
         <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="6998c49ed42e6e3c4d330f22"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
@@ -631,12 +671,14 @@
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5c70984712875079b91f8af9</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
         <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Regulator_Linear" part="NCP1117-3.3_SOT223" description="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5c70984712875079b91f8af9"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="REGULATOR LDO 3.3V"/>
@@ -650,12 +692,14 @@
       <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
       <fields>
         <field name="Obchod">TME</field>
+        <field name="UST_ID">5e82e0691287502a334a778c</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
         <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
       <property name="Obchod" value="TME"/>
+      <property name="UST_ID" value="5e82e0691287502a334a778c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="ki_keywords" value="usb ethernet video"/>
@@ -692,6 +736,7 @@
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <property name="ki_fp_filters" value="Crystal*"/>

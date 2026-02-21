@@ -10713,7 +10713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_Small"
+		(property "Value" "32.768kHz"
 			(at 100.33 91.44 0)
 			(effects
 				(font
@@ -10741,6 +10741,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b1b"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -13185,7 +13194,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dd154f8d-b389-45be-9507-ab9b40762cdc")
 		(property "Reference" "#PWR018"
 			(at 87.63 100.33 0)
@@ -13223,6 +13232,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 87.63 93.98 0)
 			(effects
 				(font

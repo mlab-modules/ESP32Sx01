@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ESP32Sx01.kicad_sch</source>
-    <date>2026-02-20T20:49:40+0000</date>
+    <date>2026-02-21T08:23:10+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -724,16 +724,18 @@
       <tstamps>4f53e25d-771c-40a8-9dcb-64300c1f6b02</tstamps>
     </comp>
     <comp ref="Y1">
-      <value>Crystal_Small</value>
+      <value>32.768kHz</value>
       <footprint>Mlab_XTAL:ABS07</footprint>
       <datasheet>~</datasheet>
       <description>Two pin crystal, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b1b</field>
         <field name="Footprint">Mlab_XTAL:ABS07</field>
         <field name="Datasheet">~</field>
         <field name="Description">Two pin crystal, small symbol</field>
       </fields>
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b1b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32Sx01.kicad_sch"/>
       <property name="exclude_from_bom"/>
